@@ -9,6 +9,7 @@
 
 .result-part {
 	display: flex;
+	justify-content: space-between;
 	height: 10%;
 	margin-bottom: 10px;
 }
@@ -36,11 +37,26 @@
 	margin-right: 3%;
 	border: 1px solid #000;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .operand-conteiner {
 	width: 15%;
 	border: 1px solid #000;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
 
+.digit-bts {
+	width: 33%;
+	height: 25%;
+	flex-grow: 1;
+}
+
+.operands-bts {
+	flex-grow: 1;
 }

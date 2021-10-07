@@ -19,6 +19,10 @@
 	margin-right: 3%;
 	background-color: #fff;
 	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .calc-clr {
@@ -60,3 +64,4 @@
 .operands-bts {
 	flex-grow: 1;
 }
+

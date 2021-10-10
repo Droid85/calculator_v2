@@ -23,22 +23,37 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	border: 1px solid #000;
+	font-size: 24px;
 }
 
 .calc-clr {
 	width: 15%;
 	border-radius: 5px;
+	background-color: #ebab34;
+}
+
+.calc-clr:hover {
+	cursor: pointer;
+	color: #ff0000;
 }
 
 .operation-part {
 	display: flex;
+	justify-content: space-between;
 	height: 85%;
+}
+
+.operands-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 15%;
 }
 
 .digit-conteiner {
 	height: 100%;
 	width: 80%;
-	margin-right: 3%;
 	border: 1px solid #000;
 	border-radius: 5px;
 	display: flex;
@@ -48,20 +63,35 @@
 }
 
 .operand-conteiner {
-	width: 15%;
+	width: 100%;
 	border: 1px solid #000;
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
+	flex-grow: 2;
+	margin-bottom: 15px;;
 }
 
 .digit-bts {
 	width: 33%;
 	height: 25%;
 	flex-grow: 1;
+	font-size: 24px;
 }
 
 .operands-bts {
 	flex-grow: 1;
+	font-size: 24px;
 }
 
+.result-btn {
+	flex-grow: 2;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 24px;
+}
+
+.result-btn:hover {
+	cursor: pointer;
+	background-color: #ccc;
+}
